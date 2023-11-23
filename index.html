@@ -13,9 +13,45 @@
 </head>
 <body>
     <header>
-        <img src="assets/favicon.png" alt="Logo">
+        <img class="favicon" src="assets/favicon.png" alt="Logo">
         <h1>Turbines Academy
         </h1>
     </header>
+
+    <section id="forms">
+        <div>
+            <div>
+                <h3>Start Your Free Trial</h3>
+                <h4>15-day Trial &nbsp; No Credit Card Info Required</h4>
+            </div>
+
+            <form action="" class="forms">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="John">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Doe">
+
+                <br>
+                <label for="companyname">Company Name</label>
+                <input type="text" id="companyname" name="companyname" placeholder="Turbines Academy">
+
+                <br>
+                <label for="workemail">Work Email</label>
+                <input type="email" id="workemail" name="workemail" placeholder="johndoe@email.com">
+                <br>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter Your Password" minlength="6">
+                <label>At least 6 characters</label>
+                <br>
+                <label for="phonenumber">Phone Number [optional]</label>
+                <input type="number" id="phonenumber" name="phonenumber" placeholder="0000000">
+
+                <br>
+                <input type="submit" class="submit"></input>
+                
+            </form>
+
+        </div>
+    </section>
 </body>
 </html>
